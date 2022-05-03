@@ -1,9 +1,27 @@
-html,
+html {
+  background-image: url("https://images.unsplash.com/photo-1601694090572-98694c8b3b85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGlsbCUyMHJvYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  max-width: 500px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+html {
 }
 
 a {
